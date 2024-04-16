@@ -168,9 +168,11 @@ def deal_with_nullvalues(mdf):
     Fills missing values in specific columns of the DataFrame `mediterranean_df`.
     """
     columns_to_fill = ["number_of_dead", "minimum_estimated_number_of_missing", "country_of_origin",
-                       "information_source", "url", "number_of_survivors", "number_of_females",
-                       "number_of_males", "number_of_children"]
+                       "information_source", "url"]
     mdf[columns_to_fill] = mdf[columns_to_fill].fillna('Unknown')
+    columns_to_fill2 = ["number_of_survivors", "number_of_females",
+                       "number_of_males", "number_of_children"]
+    mdf[columns_to_fill2] = mdf[columns_to_fill2].fillna(0)
     mdf["url"].fillna('None', inplace=True)
     return mdf
     
