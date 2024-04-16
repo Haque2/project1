@@ -1,10 +1,26 @@
 # Ironhack First Project
-README file with the following structure:
-Title of the project
-Introduction to your project.
-Data you are using (and comments, main challenges, strengths & weaknesses, etc…)
-Questions you want to answer (maybe divided by different topics). Each question should include a conclusion written in a markdown cell.
-Describe the methodology you are using, explaining the steps upi took for data cleaning, analysis, etc.
+
+Title: 'Missing Migration'
+
+Introduction: 
+29,361 people have been missing in the Mediterranean sea since 2014. 
+People have been moving across the Mediterranean in all directions for thousands of years. Since the mid-1990s, thousands have crossed by boat each year from North Africa and Turkey to Europe, seeking asylum or migrating. 
+
+
+Data we are used, 'Missing Migrants Global Figures Data' from IOM. Main challenges were with API, finding afocus withing the topic.
+
+Questions: 
+What is the year with the highest number of missing immigrants in the Mediterranean sea?
+Does weather play a big role?
+What is the major cause of missing or dying?
+
+2015-2018 were the highest number of missing immigrants.
+No, weather doenst play any big role.
+Drowning is major cause, also push back and overloaded boat. 
+
+
+Methodology: Research, Data collection, Data wrangling, API, EDA
+
 Conclusions after your analysis.
-Further questions.
-Links to data sources and Trello.
+
+Links to data sources and Trello: 
